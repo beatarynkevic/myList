@@ -2,10 +2,10 @@ package sarasai;
 
 public class MyList {
     
-    private Object[] list;
+    private Object[] list; //savybe
     
-    public MyList() {
-        this.list = new Object[0];
+    public MyList() { //vertes priskyrimas savybei
+        this.list = new Object[0]; //sarasas objektu
     }
     public void add(Object o) {
         Object[] newList = new Object[this.list.length + 1];
@@ -31,9 +31,9 @@ public class MyList {
         
     }
 
-//    public void insert(int index, Object o) {     kas gudresnis???
-//        
-//    }
+    public void insert(int index, Object o) {
+        
+    }
     public int size() {
         return this.list.length;
     }
