@@ -1,0 +1,7 @@
+List ml = new ArrayList(); // paprasciau pasiekti objektus
+List ml = new LinkedList(); // manipuliacijos yra greitesnes
+
+Set aibe = new HashSet(); // saugo sarasa objektu, elementai negali kartotis, elementai neturi pozicijos numerio
+
+Map map = new HashMap(); // savybes nesikartoja. Neturi metodo add, turi put
+Map map = new HashTable();
