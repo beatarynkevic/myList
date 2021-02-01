@@ -1,0 +1,38 @@
+package hashmapawesome;
+
+import java.util.HashMap;
+
+public class HashMapAwesome {
+
+    public static void main(String[] args) {
+        
+        HashMap<String, String> fun = new HashMap<String, String>();
+        fun.put("bobbyJpe1996", "FluffyPonies");
+        fun.put("helloKittyFan21", "AloeVera?");
+        fun.put("coolguyswag", "password123");
+        
+        fun.remove("helloKittyFan21", "AloeVera?");
+        
+        System.out.println(fun.containsValue("password123"));
+        
+        
+        
+        
+        
+  /*    int a = 10;
+        int b = 3;
+        int c = 88;
+        
+        HashMap<String, Integer> happy = new HashMap<String, Integer>();
+        
+        happy.put("a", 10);
+        happy.put("b", 3);
+        happy.put("c",88);
+        
+        System.out.println(happy); */
+    }
+    
+}
+
+
+//  https://www.youtube.com/watch?v=70qy6_gw1Hc
